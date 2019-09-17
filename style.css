@@ -1,11 +1,13 @@
 
 
+
 /* Desktop Styles */
 @media only screen and (min-width: 768px) {
     
     .navbar{
-        display: none;
+        display: none!important;
     }
+ 
 nav ul 
 {
      display : flex;
@@ -19,11 +21,7 @@ a {
     text-decoration: none;
 }
 
-.Navbar
-    {
-        display: none;
-    }
-    
+
 }
 
 
@@ -45,4 +43,76 @@ a {
 }
 }
 
+
+
+/* pickle_story */
+.reverseColumnPickleStory{
+    flex-direction: row-reverse;
+    background-color: rgb(29, 117, 3)
+}
+
+.reverseParagraphePickleStory{
+    align-self: center;
+    color: antiquewhite;
+}
+
+.paragraphePickleStory{
+    align-self: center;
+    color: rgb(29, 117, 3);
+}
+.groupePickle{
+    width: 100%;
+    height:300px;
+}
+.marginPickleStory{
+    margin-bottom: 10px;
+}
+.reverseParagraphePickleStory p{
+    margin:0;
+}
+.paragraphePickleStory p{
+    margin:0;
+}
+
+/* Gestion footer */
+
+.pickles-footer {
+    display: flex;
+    background-color: lightgreen;
+}
+
+footer img {
+    width: auto;
+    height: 70px;
+    margin: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    footer img {
+        width: auto;
+        height: 35px;
+    }
+
+    .contact-footer a {
+        font-size: 24px
+    }
+}
+
+.social-footer {
+    text-align: right;
+    width: 50%;
+}
+
+.contact-footer {
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+.contact_mailto {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    text-transform: uppercase;
+}
 
