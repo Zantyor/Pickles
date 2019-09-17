@@ -27,7 +27,44 @@
     margin:0;
 }
 
+/* Gestion footer */
 
-@media screen and (max-width: 768 {
+.pickles-footer {
+    display: flex;
+    background-color: lightgreen;
+}
 
+footer img {
+    width: auto;
+    height: 70px;
+    margin: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    footer img {
+        width: auto;
+        height: 35px;
+    }
+
+    .contact-footer a {
+        font-size: 24px
+    }
+}
+
+.social-footer {
+    text-align: right;
+    width: 50%;
+}
+
+.contact-footer {
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+.contact_mailto {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    text-transform: uppercase;
 }
