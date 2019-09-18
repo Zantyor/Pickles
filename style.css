@@ -300,6 +300,12 @@ a {
 .widthSuperGreen {
     width: 100%;
 }
+.imgBandeauHome{
+    max-width: 100%;
+    height: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
 
 .marginTextCenterHome {
     margin: 25px;
