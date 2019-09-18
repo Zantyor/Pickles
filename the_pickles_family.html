@@ -17,8 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
-
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Title</title>
 </head>
 <body>
@@ -102,6 +101,22 @@
         </a>
     </div>
 </section>
+<div class="mt-4">
+    <h2 class="text-center text-uppercase mb-4">Give your friends a little pickly present !</h2>
+    <form action="?" method="POST" class="sponsorship">
+        <div class="sponsorship_div">
+            <label>Write down your friend mail !</label>
+            <input type="email" placeholder="john.Doe@gmail.com" class="mb-4">
+            <label>Send a funny note with your sponsorship link :-)</label>
+            <textarea placeholder="Hey john ! This may interest you :D" class="mb-4"></textarea>
+        </div>
+        <div class="sponsorship_div">
+            <div class="g-recaptcha" data-sitekey="6LfFCrkUAAAAAA2Fc-mvzCL5wiZKoRXcfLMKwYzc"></div>
+            <br/>
+            <input type="submit" value="Submit" class="w-50">
+        </div>
+    </form>
+</div>
 <footer class="page-footer">
     <div class="container pickles-footer mt-3">
         <div class=" contact-footer">
@@ -115,4 +130,5 @@
     </div>
 </footer>
 </body>
+
 </html>
