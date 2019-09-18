@@ -100,6 +100,26 @@ a {
     margin:8px;
 }
 
+/*Pickle Family */
+
+.imgConcoursPickleFamily{
+    max-width: 100%;
+    height: auto;
+  }
+.concoursPickleFamily{
+    background-color: rgb(46, 196, 46);
+    margin-top: 10px;
+}
+.paragrapheConcoursPickleFamily{
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    text-align: justify;
+}
+
+
+
+
+
 
 /* Gestion footer */
 
