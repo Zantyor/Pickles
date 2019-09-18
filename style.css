@@ -181,12 +181,39 @@ a {
         margin:auto;
         width: 80%;
     }
-    twitterFeed{
-        
-    }
-
 
 }
+
+@media screen and (min-width : 1200px) {
+
+    .twitterFeed{
+        margin-left: 1rem !important ;
+        margin-right : 0.5rem !important;
+    }
+
+}
+
+@media screen and (max-width : 768px){
+
+    .row{
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+}
+@media screen and (max-width : 575px){
+
+    .row{
+        margin-left:0;
+        margin-right:0;
+    }
+}
+
+
+
+
+
+
+
 
 /*Home*/
 .widthSuperGreen {
@@ -200,7 +227,7 @@ a {
 /* pickle_story */
 .reverseColumnPickleStory {
     flex-direction: row-reverse;
-    background-color: rgb(46, 196, 46);
+    background-color: #60BA68;
     margin: 8px;
 }
 
@@ -211,7 +238,7 @@ a {
 
 .paragraphePickleStory {
     align-self: center;
-    color: rgb(46, 196, 46);
+    color: #60BA68;
 }
 
 .groupePickle {
@@ -264,7 +291,7 @@ a {
     height: auto;
   }
 .concoursPickleFamily{
-    background-color: rgb(46, 196, 46);
+    background-color: #60BA68;
     margin-top: 10px;
 }
 .paragrapheConcoursPickleFamily{
