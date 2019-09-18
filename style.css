@@ -1,61 +1,32 @@
 /* CSS RECIPES */
 
-.container-recipes{
-  margin-left: 20%;
+.container-recipes {
+    margin-left: 20%;
 }
 
-h1{
-  margin-bottom: 60px;
+h1 {
+    margin-bottom: 60px;
 }
 
-.recettes img{
-  display:inline-block;width:250px;height:250px;
-  white-space:nowrap;
-  overflow:hidden;
-  border-radius: 150px;
-  object-fit: cover;
+.recettes img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 150px;
+    object-fit: cover;
 }
 
-.recettes{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  margin: 35px;
-
-}
-
-.texte-recettes {
+.recettes {
     display: flex;
-    flex-direction: column;
-  	flex-wrap: nowrap;
-  	justify-content: flex-start;
-  	align-items: stretch;
-  	align-content: stretch;
-    margin-left: 25px;
-}
-
-/* Mobile Styles */
-@media only screen and (max-width: 768px) {
-
-.recettes{
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    margin: 40px;
-  }
+    margin: 35px;
 
-.h2-recipes{
-  text-align: center;
-}
-
-.p-recipes{
-  text-align: left;
 }
 
 .texte-recettes {
@@ -105,7 +76,6 @@ h1{
         margin-left: 0;
     }
 
-
 }
 
 
@@ -123,7 +93,6 @@ h1{
 
 
 
-
     nav ul {
         display: flex;
         flex-direction: row;
@@ -136,20 +105,16 @@ h1{
         text-decoration: none;
     }
 
-
-
     .menu
     {
         background-color: lightgreen;
         color: white;
         height: 8%;
 
-
     }
 .home
     {
         color: white;
-
 
     }
     .home:hover{
@@ -199,6 +164,7 @@ a {
         text-decoration: none;
     }
 
+
 }
 @media screen and (max-width : 1200px) {
 
@@ -236,6 +202,49 @@ a {
         margin-right:0;
     }
 }
+@media screen and (max-width : 1200px) {
+
+    .containerFeedFormMobile{
+        flex-direction: column-reverse;
+    }
+
+    .twitter-timeline{
+        margin:auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width : 1200px) {
+
+    .twitterFeed{
+        margin-left: 1rem !important ;
+        margin-right : 0.5rem !important;
+    }
+
+}
+
+@media screen and (max-width : 768px){
+
+    .row{
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+}
+@media screen and (max-width : 575px){
+
+    .row{
+        margin-left:0;
+        margin-right:0;
+    }
+}
+
+
+
+
+
+
+
 
 
 
@@ -327,7 +336,28 @@ a {
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
     text-align: justify;
+
 }
+
+/*Pickle Family */
+
+.imgConcoursPickleFamily{
+    max-width: 100%;
+    height: auto;
+  }
+.concoursPickleFamily{
+    background-color: #60BA68;
+    margin-top: 10px;
+}
+.paragrapheConcoursPickleFamily{
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    text-align: justify;
+}
+
+
+
+
 
 
 
@@ -435,3 +465,4 @@ footer img {
     display: flex;
     flex-direction: column;
 }
+
