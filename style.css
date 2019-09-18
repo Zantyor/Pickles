@@ -23,7 +23,7 @@ h1{
   justify-content: flex-start;
   align-items: center;
   align-content: center;
-  margin: 35px; 
+  margin: 35px;
 
 }
 
@@ -87,7 +87,7 @@ h1{
 
 nav ul
 {
-     display : flex;
+    display : flex;
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
@@ -120,12 +120,19 @@ a {
 }
 }
 
-
+/*Home*/
+.widthSuperGreen{
+    width: 100%;
+}
+.marginTextCenterHome{
+    margin: 25px;
+}
 
 /* pickle_story */
 .reverseColumnPickleStory{
     flex-direction: row-reverse;
-    background-color: rgb(29, 117, 3)
+    background-color: rgb(46, 196, 46);
+    margin: 8px;
 }
 
 .reverseParagraphePickleStory{
@@ -135,7 +142,7 @@ a {
 
 .paragraphePickleStory{
     align-self: center;
-    color: rgb(29, 117, 3);
+    color: rgb(46, 196, 46);
 }
 .groupePickle{
     width: 100%;
@@ -150,6 +157,29 @@ a {
 .paragraphePickleStory p{
     margin:0;
 }
+.widthNotAndReverseParagraphePickleLife{
+    width:100%;
+}
+
+.marginContainerPickleLife{
+    margin-bottom: 50px;
+}
+
+/* Pickle_life*/
+
+.imgPickleLife{
+    margin:8px;
+    }
+.titrePickleLife{
+    margin:10px;
+}
+.cornichonPickleStory{
+    width: 100%;
+}
+.tbPickleLife{
+    margin:8px;
+}
+
 
 /* Gestion footer */
 
