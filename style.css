@@ -80,12 +80,12 @@ h1{
 
 /* Desktop Styles */
 @media only screen and (min-width: 768px) {
-
+    
     .navbar{
         display: none!important;
     }
-
-nav ul
+ 
+nav ul 
 {
     display : flex;
     flex-direction: row;
@@ -110,7 +110,7 @@ a {
     {
         display: none;
     }
-nav ul
+nav ul 
 {
   list-style-type: none;
 }
@@ -221,4 +221,36 @@ footer img {
     margin-bottom: auto;
     color: white;
     text-transform: uppercase;
+}
+
+/*pickles Family*/
+.sponsorship {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.sponsorship .g-recaptcha div {
+}
+
+@media screen and (max-width: 575px) {
+    #rc-imageselect, .g-recaptcha {
+        transform: scale(0.77);
+        -webkit-transform: scale(0.77);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+}
+.sponsorship label{
+    margin: 0;
+}
+@media screen  and (max-width: 768px){
+    .sponsorship label{
+       text-align: center;
+    }
+}
+.sponsorship_div {
+    display: flex;
+    flex-direction: column;
 }
