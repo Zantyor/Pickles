@@ -87,6 +87,14 @@ h1 {
         display: none !important;
     }
 
+
+    header{
+           margin-bottom: 80px;
+    }
+
+
+
+  
     nav ul {
         display: flex;
         flex-direction: row;
@@ -100,6 +108,26 @@ h1 {
     }
 
 
+
+    .menu
+    {
+        background-color: lightgreen;
+        color: white;
+        height: 8%;
+     
+    
+    }
+.home
+    {
+        color: white;
+       
+      
+    }
+    .home:hover{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
 }
 
 
@@ -107,9 +135,32 @@ h1 {
 @media only screen and (max-width: 768px) {
 
 
+      header{
+           margin-bottom: 80px;
+    }
+   
+
     .menu {
+
         display: none;
     }
+
+
+a {
+    text-decoration: none;
+}
+    
+.nav-link
+    {
+        text-decoration: none;
+        color: white!important;
+       
+    }
+    .nav-link:hover{
+        font-weight: bold;
+    }
+
+  
 
     nav ul {
         list-style-type: none;
@@ -118,6 +169,7 @@ h1 {
     a {
         text-decoration: none;
     }
+
 }
 
 /*Home*/
@@ -232,6 +284,31 @@ footer img {
     text-transform: uppercase;
 }
 
+
+.button
+{
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid lightgreen;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover
+{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: #4CAF50;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
 /*pickles Family*/
 .sponsorship {
     display: flex;
@@ -266,3 +343,4 @@ footer img {
     display: flex;
     flex-direction: column;
 }
+
