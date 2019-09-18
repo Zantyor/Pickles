@@ -76,7 +76,6 @@ h1 {
         margin-left: 0;
     }
 
-
 }
 
 
@@ -94,7 +93,6 @@ h1 {
 
 
 
-  
     nav ul {
         display: flex;
         flex-direction: row;
@@ -107,21 +105,17 @@ h1 {
         text-decoration: none;
     }
 
-
-
     .menu
     {
         background-color: lightgreen;
         color: white;
         height: 8%;
-     
-    
+
     }
 .home
     {
         color: white;
-       
-      
+
     }
     .home:hover{
         text-decoration: none;
@@ -138,7 +132,7 @@ h1 {
       header{
            margin-bottom: 80px;
     }
-   
+
 
     .menu {
 
@@ -149,18 +143,18 @@ h1 {
 a {
     text-decoration: none;
 }
-    
+
 .nav-link
     {
         text-decoration: none;
         color: white!important;
-       
+
     }
     .nav-link:hover{
         font-weight: bold;
     }
 
-  
+
 
     nav ul {
         list-style-type: none;
@@ -169,6 +163,7 @@ a {
     a {
         text-decoration: none;
     }
+
 
 }
 @media screen and (max-width : 1200px) {
@@ -207,6 +202,49 @@ a {
         margin-right:0;
     }
 }
+@media screen and (max-width : 1200px) {
+
+    .containerFeedFormMobile{
+        flex-direction: column-reverse;
+    }
+
+    .twitter-timeline{
+        margin:auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width : 1200px) {
+
+    .twitterFeed{
+        margin-left: 1rem !important ;
+        margin-right : 0.5rem !important;
+    }
+
+}
+
+@media screen and (max-width : 768px){
+
+    .row{
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+}
+@media screen and (max-width : 575px){
+
+    .row{
+        margin-left:0;
+        margin-right:0;
+    }
+}
+
+
+
+
+
+
+
 
 
 
@@ -298,7 +336,28 @@ a {
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
     text-align: justify;
+
 }
+
+/*Pickle Family */
+
+.imgConcoursPickleFamily{
+    max-width: 100%;
+    height: auto;
+  }
+.concoursPickleFamily{
+    background-color: #60BA68;
+    margin-top: 10px;
+}
+.paragrapheConcoursPickleFamily{
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    text-align: justify;
+}
+
+
+
+
 
 
 
