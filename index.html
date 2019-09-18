@@ -21,8 +21,8 @@
 
  <header>
   
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">LOGO</a>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: lightgreen;">
+  <a class="navbar-brand" href="index.html">LOGO</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -55,21 +55,25 @@
 </nav>
      
         
-        <nav class="menu">
+        <nav class="menu fixed-top">
              
             <ul>
                 <li><img/>LOGO</li>
                 <li><a href="index.html" class="home">Home</a></li>
-                <li><a href="pickles_story.html" class="story">Pickle's Story</a></li>
-                <li><a href="pickles_life.html" class="life">Pickle's Life</a></li>
-                <li><a href="recipes.html" class="recipes">Recipes</a></li>
-                <li><a href="the_pickles_family.html" class="family">The Pickle's Family</a></li>
-                <li><a href="store.html" class="store">Store</a></li>
-                <li><a href="index.html" class="panier">Panier</a></li>
+
+                <li><a href="pickles_story.html" class="home">Pickle's Story</a></li>
+                <li><a href="pickles_life.html" class="home">Pickle's Life</a></li>
+                <li><a href="recipes.html" class="home">Recipes</a></li>
+                <li><a href="the_pickles_family.html" class="home">The Pickle's Family</a></li>
+                <li><a href="store.html" class="home">Store</a></li>
+                <li><a href="index.html" class="home">Panier</a></li>
             </ul>
         </nav>
     </header>
-
+    <button onclick="window.location.href = 'recipes.html';" class="button">I'm Hungry !</button>
+    <button onclick="window.location.href = 'the_pickles_family.html';" class="button">Participate !</button>
+    
+    
 
 <section class="container">
   <img src="img/supergreen.jpg" alt="#supergreen" class="widthSuperGreen">
@@ -181,6 +185,7 @@
          </a>
      </div>
  </section>
+
 <footer class="page-footer">
     <div class="container pickles-footer mt-3">
         <div class=" contact-footer">
