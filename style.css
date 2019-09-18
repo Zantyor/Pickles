@@ -1,0 +1,44 @@
+.img-fluid{
+    height: auto; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photo_text{
+    text-align: center;
+    margin: 15px;
+}
+/*texte en dessous des images*/
+.description_image{
+    width: 100%;
+    text-align: justify;
+    height: auto;
+
+}
+
+.img-thumbnail{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border: 4px solid lightgreen;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .photo_text{
+        text-align: center;
+    }
+
+    .img-fluid{
+        height: auto;
+    }
+}
