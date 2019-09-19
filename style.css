@@ -348,7 +348,7 @@ a {
 /* pickle_story */
 .reverseColumnPickleStory {
     flex-direction: row-reverse;
-    background-color: #60BA68;
+    background-color:#78d685;
 }
 
 .reverseParagraphePickleStory {
@@ -358,8 +358,9 @@ a {
 
 .paragraphePickleStory {
     align-self: center;
-    color: #60BA68;
+    color: #78d685;
 }
+
 
 .groupePickle {
     width: 100%;
@@ -419,7 +420,7 @@ a {
     height: auto;
   }
 .concoursPickleFamily{
-    background-color: #60BA68;
+    background-color: #78d685;
     margin-top: 10px;
 }
 .paragrapheConcoursPickleFamily{
@@ -436,15 +437,18 @@ a {
     height: auto;
   }
 .concoursPickleFamily{
-    background-color: #60BA68;
+    background-color: #78d685;
     margin-top: 10px;
 }
 .paragrapheConcoursPickleFamily{
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
     text-align: justify;
+    color:#ffffff;
 }
-
+.parrainage{
+    color:#78d685;
+}
 
 
 
