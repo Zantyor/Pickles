@@ -82,6 +82,14 @@ h1 {
     margin-left: 25px;
 }
 
+.titreRecipes{
+    text-align: center;
+}
+
+
+
+
+
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
 
@@ -338,6 +346,7 @@ a {
 
 .groupePickle {
     width: 100%;
+    margin-bottom: 32px;
 }
 
 .marginPickleStory {
