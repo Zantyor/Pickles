@@ -324,7 +324,6 @@ a {
 .reverseColumnPickleStory {
     flex-direction: row-reverse;
     background-color: #60BA68;
-    margin: 8px;
 }
 
 .reverseParagraphePickleStory {
@@ -339,7 +338,6 @@ a {
 
 .groupePickle {
     width: 100%;
-    height: 300px;
 }
 
 .marginPickleStory {
@@ -361,6 +359,14 @@ a {
 .marginContainerPickleLife {
     margin-bottom: 50px;
 }
+
+.widthParagraphePickleStory{
+    width: 100%;
+}
+.rounded-circle1{
+    margin:16px;
+}
+
 
 /* Pickle_life*/
 
