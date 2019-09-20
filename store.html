@@ -3,14 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+
     <title>Title</title>
 </head>
 <body>
+
+<header>
+    <a href="index.html"><img src="img/super-pickle.png" alt="Logo Super Pickle" class="logo_desktop fixed-top"/></a>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #78d685;">
+
+        <a class="navbar-brand" href="index.html">
+
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-5 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pickles_story.html">Pickle's Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pickles_life.html">Pickle's Life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recipes.html">Recipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="the_pickles_family.html">The Pickle's Family</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><img src="img/shopping_bag.png" width="30"/></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <nav class="menu fixed-top">
+
+        <ul>
+            <li><a href="index.html"><img src="img/super-pickle.png" alt="Logo Super Pickle"/></a></li>
+            <li><a href="index.html" class="home">Home</a></li>
+
+            <li><a href="pickles_story.html" class="home">Pickle's Story</a></li>
+            <li><a href="pickles_life.html" class="home">Pickle's Life</a></li>
+            <li><a href="recipes.html" class="home">Recipes</a></li>
+            <li><a href="the_pickles_family.html" class="home">The Pickle's Family</a></li>
+            <li><a href="store.html" class="home">Store</a></li>
+            <li><a href="index.html" class="home"><img src="img/shopping_bag.png" width="30"/></a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="store_container container">
+    <h1>STORE</h1>
+</section>
+
+    <!-- presentation association -->
+    <section class="store_container container mt-3">
+    <h4>Our association</h4>
+    </section>
+
+    <section class="store_container container">
+       <div class="store_main_photo">
+        <p>Take part in our reforestation project.<strong> 1€=1 tree planted !</strong><br>Every action counts !</p>
+       </div>
+    </section>
+
+    <!--image avec description-->
+    <section>
+    <div class="store_container container mt-3">
+
+        <div class="photo_text">
+            <img src="img/graine de cornichon.jpg" alt="graine" class="img-thumbnail img_store"/>
+            <p class="description_image mt-1">The small green pickle of Paris is an early variety with small short fruits, straight, cylindrical, dark green. Thick, firm and crisp flesh. Production spread over a long period.Variety very suitable for the setting in jars with vinegar.</p>
+            <div class="mb-3">
+            <span><strong>1.79€ </strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-success">Add to bag</button>
+
+        </div>
+
+        <div class="photo_text">
+            <img src= "img/cornichon fin de meaux.jpg" alt="graine" class="img-thumbnail img_store"/>
+            <p class="description_image mt-1">The end of Meaux gherkin is an early variety with long fruits of a beautiful green almost cylindrical, and without thorns. Vigorous and rustic variety, very productive. Thick, firm and crisp flesh. Variety suitable for vinegar in jars.</p>
+            <div class="mb-3">
+                <span><strong>1.79€ </strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-success">Add to bag</button>
+
+        </div>
+
+        <div class="photo_text">
+            <img src="img/cornichon de bourbonne.jpg" alt="gr"  class="img-thumbnail img_store"/>
+            <p class="description_image mt-1">The improved pickle from Bourbonne is an early variety with long, thin, long fruits. Thick, firm and crisp flesh. Variety adapted to confit if gathered young and is consumed in bigger cucumber.</p>
+            <div class="mb-3">
+                <span><strong>1.79€ </strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-success">Add to bag</button>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="store_container container">
+
+        <div class="photo_text">
+            <img src="img/bonnet-rick-cornichon.jpg" alt="bonnet" class="img-thumbnail img_store"/>
+            <p class="description_image mt-1">BIO universal cotton hat, an essential accessory for a warm winter.</p>
+            <div class="mb-3">
+                <span><strong>1.79€ </strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-success">Add to bag</button>
+
+        </div>
+
+        <div class="photo_text">
+            <img src= "img/casquette pickles.jpg" alt="casquette" class="img-thumbnail img_store"/>
+            <p class="description_image mt-1">With GOTS certification your children will wear healthy caps on their heads</p>
+            <div class="mb-3">
+                <span><strong>1.79€ </strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-success">Add to bag</button>
+
+        </div>
+
+        <div class="photo_text">
+            <img src="img/t-shirt.jpg" alt="t-shirt"  class="img-thumbnail img_store"/>
+            <p class="description_image mt-1">GOTS certified organic cotton, no products harmful to health and the environment</p>
+            <div class="mb-3">
+                <span><strong>1.79€ </strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-success">Add to bag</button>
+
+        </div>
+
+    </div>
+</section>
+
+<aside class="texterigolo">
+    <p>You got a beautiful Pickle, you know ?</p>
+</aside>
+
 <footer class="page-footer">
-    <div class="container pickles-footer mt-3">
+    <div class="pickles-footer mt-3">
         <div class=" contact-footer">
             <a href="mailto:pickleslovers@gmail.com" class="contact_mailto">Contact</a>
         </div>
@@ -21,5 +184,7 @@
         </div>
     </div>
 </footer>
+
+
 </body>
 </html>

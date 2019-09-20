@@ -3,101 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Title</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+
+    
+    <title>Recipes</title>
 </head>
 <body>
-  <div class="container-recipes">
-  <h1>Recipes</h1>
-  <section>
-  <div class="recettes">
-    <img src="img/chuttersnap-lfQA8i2LTqo-unsplash.jpg" alt="pickle salt"/>
-    <div class="texte-recettes">
-    <h2 class="h2-recipes">Pickles in salt</h2>
-    <p class="p-recipes">16 medium pickles</br>
-4 cloves of garlic</br>
-2 horseradish</br>
-5 sprigs of dill</br>
-1.5 l boiled water + 2 tablespoons of salt)</br>
-2 pieces of sugar (to taste)</br>
-blackcurrant leaf</p>
-  <a href="">Read more</a>
-  </div>
-  </div>
 
-  <div class="recettes">
-    <img src="img/nadine-primeau-KD3XqquHlcc-unsplash.jpg" alt="salad"/>
-  <div class="texte-recettes">
-    <h2 class="h2-recipes">Charlotte style </br>pickle salad</h2>
-    <p class="p-recipes">8 pickles</br>
-1 pepper</br>
-40 g county cheese</br>
-100 g cooked pasta</br>
-10 goat slices</br>
-1 tablespoon mustard</p>
-  <a href="">Read more</a>
-  </div>
-  </div>
+<header>
+    <a href="index.html"><img src="img/super-pickle.png" alt="Logo Super Pickle" class="logo_desktop fixed-top"/></a>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #78d685;">
 
-  <div class="recettes">
-    <img src="img/brett-jordan-1F5IaR6j0Do-unsplash.jpg" alt="pie"/>
-  <div class="texte-recettes">
-    <h2 class="h2-recipes">Tuna and pickle pie</h2>
-    <p class="p-recipes">1 shortcrust pastry</br>
-150 g tuna</br>
-8 pickles</br>
-3 eggs</br>
-100 g of Gruyère cheese</br>
-10 cl whole cream</p>
-  <a href="">Read more</a>
-  </div>
-  </div>
+        <a class="navbar-brand" href="index.html">
 
-  <div class="recettes">
-    <img src="img/patrick-selin-IHEjVOz1fSI-unsplash.jpg" alt="soup"/>
-  <div class="texte-recettes">
-    <h2 class="h2-recipes">Polish pickle soup</h2>
-    <p class="p-recipes">4 pickled pickles "Russian style"</br>
-2 l vegetable or meat broth</br>
-1 glass of pickle</br>
-25 cl milk</br>
-40 g flour</p>
-  <a href="">Read more</a>
-  </div>
-  </div>
+        </a>
 
-  <div class="recettes">
-    <img src="img/jez-timms-6JQMjhqpVhE-unsplash.jpg" alt="sausage"/>
-  <div class="texte-recettes">
-    <h2 class="h2-recipes">Aperitif sausage </br>and pickle</h2>
-    <p class="p-recipes">a bag of mini sausages (Saint Agaûne)</br>
-2 slices of Emmental cheese</br>
-8 pickles</br>
-16 skewer picks</p>
-  <a href="">Read more</a>
-  </div>
-  </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <div class="recettes">
-    <img src="img/samia-liamani-MURbkTcUdCA-unsplash.jpg" alt="onigiri"/>
-  <div class="texte-recettes">
-    <h2 class="h2-recipes">Onigiri with pickle </br>and cream cheese</h2>
-    <p class="p-recipes">10 pickles (or more if you like)</br>
-4 portions of fresh cheese</br>
-1 nori leaf</br>
-Round rice (or sushi rice), 2 glasses</p>
-  <a href="">Read more</a>
-  </div>
-  </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-5 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pickles_story.html">Pickle's Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pickles_life.html">Pickle's Life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recipes.html">Recipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="the_pickles_family.html">The Pickle's Family</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><img src="img/shopping_bag.png" width="30"/></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 
-  </section>
+    <nav class="menu fixed-top">
+
+        <ul>
+            <li><a href="index.html"><img src="img/super-pickle.png" alt="Logo Super Pickle"/></a></li>
+            <li><a href="index.html" class="home">Home</a></li>
+
+            <li><a href="pickles_story.html" class="home">Pickle's Story</a></li>
+            <li><a href="pickles_life.html" class="home">Pickle's Life</a></li>
+            <li><a href="recipes.html" class="home">Recipes</a></li>
+            <li><a href="the_pickles_family.html" class="home">The Pickle's Family</a></li>
+            <li><a href="store.html" class="home">Store</a></li>
+            <li><a href="index.html" class="home"><img src="img/shopping_bag.png" width="30"/></a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="container-recipes container">
+      <h1 class="titreRecipes">Recipes</h1>
+      <section>
+      <div class="recettes">
+      <div class="images-recettes">
+        <img src="img/chuttersnap-lfQA8i2LTqo-unsplash.jpg" alt="pickle salt"/>
+      </div>
+        <div class="texte-recettes">
+        <h2 class="h2-recipes">Pickles in salt</h2>
+        <p class="p-recipes">
+- <strong>16</strong> medium pickles</br>
+- <strong>4</strong> cloves of garlic</br>
+- <strong>2</strong> horseradish</br>
+- <strong>5</strong> sprigs of dill</br>
+- <strong>1.5</strong> l boiled water + 2 spoons of salt)</br>
+- <strong>2</strong> pieces of sugar (to taste)</br>
+- blackcurrant leaf</p>
+      <p>
+  <a class="btn btn-success" data-toggle="collapse" href="#collapse-recipes1" role="button" aria-expanded="false" aria-controls="collapse-recipes1">
+    Read more
+  </a>
+</p>
+<div class="collapse" id="collapse-recipes1">
+  <div class="card card-body">
+<strong>Step 1</strong>
+Wash the pickles well and wipe them dry</br>
+<strong>Step 2</strong>
+Scald the jar, boil the water with salt and sugar. Allow the brine to cool.
+<strong>Step 3</strong>
+Store the pickles (I leave a little pickle tail) vertically in the jar with the different herbs, then cover completely with the cold brine and close the lid.
   </div>
+</div>
+      </div>
+      </div>
+
+        <div class="recettes">
+            <div class="images-recettes">
+                <img src="img/samia-liamani-MURbkTcUdCA-unsplash.jpg" alt="onigiri"/>
+            </div>
+            <div class="texte-recettes">
+                <h2 class="h2-recipes">Onigiri with pickle </br>and cream cheese</h2>
+                <p class="p-recipes">
+                    - <strong>10</strong> pickles (or more if you like)</br>
+                    - <strong>4</strong> portions of fresh cheese</br>
+                    - <strong>1</strong> nori leaf</br>
+                    - Round rice (or sushi rice), <strong>2</strong> glasses</p>
+                <p>
+                    <a class="btn btn-success" data-toggle="collapse" href="#collapse-recipes2" role="button"
+                       aria-expanded="false" aria-controls="collapse-recipes2">
+                        Read more
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-recipes2">
+                    <div class="card card-body">
+                        <strong>Step 1</strong>
+                        First, rinse the rice well in cold water until the water is clear.
+                        <strong>Step 2</strong>
+                        Then cook the rice in a pressure cooker or pan. For the pressure cooker, put 2 glasses of rice
+                        for 3 glasses of water. For the pan, they are the same quantities, boil, then over low heat,
+                        cover and let the rice suck up all the water. Check the condition of the cooking during.
+                        <strong>Step 3</strong>
+                        Once the rice is cooked, put it in a large bowl, then with a spoon stir the rice well so that it
+                        does not stick and cools.
+                        <strong>Step 4</strong>
+                        Once at room temperature, add the portions of fresh cheese cut into small pieces, as well as the
+                        pickles also cut into small pieces. Mix everything well.
+                        <strong>Step 5</strong>
+                        Put your hands under water, and form rice balls, no bigger than a clementine. By bending your
+                        hand, form triangles, do not hesitate to pack so that everything fits or use onigiri moulds.
+                        <strong>Step 6</strong>
+                        Cut 2 cm wide strips from the nori seaweed leaf and cut them into 10 cm long strips.
+                        <strong>Step 7</strong>
+                        Position this strip at the base of the onigiri and move it up both sides well in the center.
+                        <strong>Step 8</strong>
+                        Do the same with the entire bowl.
+                        <strong>Step 9</strong>
+                        Arrange them in a dish, and serve immediately with sweet or salty soy sauce. Enjoy your meal!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      <div class="recettes recetteCharlotte">
+      <div class="images-recettes">
+        <img src="img/nadine-primeau-KD3XqquHlcc-unsplash.jpg" alt="salad"/>
+      </div>
+      <div class="texte-recettes">
+        <h2 class="h2-recipes">Charlotte style </br>pickle salad</h2>
+        <p class="p-recipes">
+- <strong>8</strong> pickles</br>
+- <strong>1</strong> pepper</br>
+- <strong>40</strong> g county cheese</br>
+- <strong>100</strong> g cooked pasta</br>
+- <strong>10</strong> goat slices</br>
+- <strong>1</strong> tablespoon mustard</p>
+  <p>
+    <a class="btn btn-success" data-toggle="collapse" href="#collapse-recipes3" role="button" aria-expanded="false" aria-controls="collapse-recipes3">
+        Read more
+    </a>
+  </p>
+  <div class="collapse" id="collapse-recipes3">
+  <div class="card card-body">
+    <strong>Step 1</strong>
+    Cut the pepper, pickles, goat cheese into slices and mix.</br>
+    <strong>Step 2</strong>
+    Add mustard, pasta and diced comté cheese.</br>
+    <strong>Step 3</strong>
+    Mix and enjoy.
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="recettes">
+            <div class="images-recettes">
+                <img src="img/brett-jordan-1F5IaR6j0Do-unsplash.jpg" alt="pie"/>
+            </div>
+            <div class="texte-recettes">
+                <h2 class="h2-recipes">Tuna and pickle pie</h2>
+                <p class="p-recipes">
+                    - <strong>1</strong> shortcrust pastry</br>
+                    - <strong>150</strong> g tuna</br>
+                    - <strong>8</strong> pickles</br>
+                    - <strong>3</strong> eggs</br>
+                    - <strong>100</strong> g of Gruyère cheese</br>
+                    - <strong>10</strong> cl whole cream</p>
+                <p>
+                    <a class="btn btn-success" data-toggle="collapse" href="#collapse-recipes4" role="button"
+                       aria-expanded="false" aria-controls="collapse-recipes4">
+                        Read more
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-recipes4">
+                    <div class="card card-body">
+                        <strong>Step 1</strong>
+                        Break the eggs in a bowl and beat them.
+                        Step 2</br>
+                        <strong>Step 2</strong>
+                        Add the drained tuna, then the 2nd one, half of the oil of which you will have kept, mix well.
+                        <strong>Step 3</strong>
+                        Cut the gherkins into slices and add them, as well as 50 g of grated gruyère cheese, salt and
+                        pepper.
+                        <strong>Step 4</strong>
+                        Mix well and add the cream last and then mix again.
+                        <strong>Step 5</strong>
+                        Put the shortcrust pastry in a mould, prick it and preheat the oven to 220°C (thermostat 7).
+                        <strong>Step 6</strong>
+                        Pour the mixture over the shortcrust pastry and add the rest of the grated Gruyère cheese, then
+                        bake for 20-25 min until the pastry turns slightly brown.
+                        <strong>Step 7</strong>
+                        Tip: Wait until the pie is warm before eating it, it will be even better.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recettes">
+            <div class="images-recettes">
+                <img src="img/patrick-selin-IHEjVOz1fSI-unsplash.jpg" alt="soup"/>
+            </div>
+            <div class="texte-recettes">
+                <h2 class="h2-recipes">Polish pickle soup</h2>
+                <p class="p-recipes">
+                    - <strong>4</strong> pickled pickles "Russian style"</br>
+                    - <strong>2</strong>l vegetable or meat broth</br>
+                    - <strong>1</strong> glass of pickle</br>
+                    - <strong>25</strong> cl milk</br>
+                    - <strong>40</strong> g flour</p>
+                <p>
+                    <a class="btn btn-success" data-toggle="collapse" href="#collapse-recipes5" role="button"
+                       aria-expanded="false" aria-controls="collapse-recipes5">
+                        Read more
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-recipes5">
+                    <div class="card card-body">
+                        <strong>Step 1</strong>
+                        Bring the broth to a boil.
+                        <strong>Step 2</strong>
+                        Coarsely grate the pickles, add them to the broth at the same time as the brine. Season and boil
+                        for a few minutes.
+                        <strong>Step 3</strong>
+                        In a bowl, gradually mix the flour with the milk (watch out for lumps). Slowly pour this mixture
+                        into the broth while stirring until the soup thickens.
+                        <strong>Step 4</strong>
+                        Serve the soup with potatoes cooked in water and diced.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recettes">
+            <div class="images-recettes">
+                <img src="img/jez-timms-6JQMjhqpVhE-unsplash.jpg" alt="sausage"/>
+            </div>
+            <div class="texte-recettes">
+                <h2 class="h2-recipes">Aperitif sausage </br>and pickle</h2>
+                <p class="p-recipes">
+                    - a bag of mini sausages (Saint Agaûne)</br>
+                    - <strong>2</strong> slices of Emmental cheese</br>
+                    - <strong>8</strong> pickles</br>
+                    - <strong>16</strong> skewer picks</p>
+                <p>
+                    <a class="btn btn-success" data-toggle="collapse" href="#collapse-recipes6" role="button"
+                       aria-expanded="false" aria-controls="collapse-recipes6">
+                        Read more
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-recipes6">
+                    <div class="card card-body">
+                        <strong>Step 1</strong>
+                        Cut the Emmentaler slices into 2 cm squares.
+                        <strong>Step 2</strong>
+                        Cut the pickles and mini sausages in half.
+                        <strong>Step 3</strong>
+                        Thread on the skewer stick: a square of Emmental cheese, half a sausage, half a pickle, half a
+                        sausage and finish with a square of Emmental cheese.
+                        <strong>Step 4</strong>
+                        Repeat the same procedure for each of the skewers.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+<aside class="texterigolo">
+    <p>Houston, we have a Pickle !</p>
+</aside>
 
 <footer class="page-footer">
-    <div class="container pickles-footer mt-3">
+    <div class="pickles-footer mt-3">
         <div class=" contact-footer">
             <a href="mailto:pickleslovers@gmail.com" class="contact_mailto">Contact</a>
         </div>
